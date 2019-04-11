@@ -59,7 +59,8 @@ int main(int argc, char const *argv[]) {
   pthread_create(&id1, NULL, (void*) thread_1, NULL);
   pthread_create(&id2, NULL, (void*) thread_2, NULL);
 
-  sleep(1);
+  // fazer pthreaad join!
+
   printa_ae();
 
   return 0;
